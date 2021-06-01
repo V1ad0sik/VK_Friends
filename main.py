@@ -1,7 +1,7 @@
 from vk_api import vk_api
 
 user_id = 1 # ID человека
-token = ''  # Токе
+token = ''  # Токен
 
 vk_session = vk_api.VkApi(app_id = 2274003, token = token) # Авторизация
 vk = vk_session.get_api()
